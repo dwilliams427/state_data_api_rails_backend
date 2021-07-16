@@ -6,12 +6,12 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-require 'csv'
+# require 'csv'
 
-abbreviations_filepath = "lib/seed_csv/abbreviations.csv"
-state_data_filepath = "lib/seed_csv/state_data.csv"
+# abbreviations_filepath = "lib/seed_csv/abbreviations.csv"
+# state_data_filepath = "lib/seed_csv/state_data.csv"
 
-##import state data
+# ##import state data
 # CSV.foreach(Rails.root.join(state_data_filepath), headers: true) do |row|
 #   State.create({
 #     state: row["state"],
@@ -22,11 +22,11 @@ state_data_filepath = "lib/seed_csv/state_data.csv"
 #   })
 # end
 
-#import abbreviation data
-CSV.foreach(Rails.root.join(abbreviations_filepath), headers: true) do |row|
-  Abbreviation.create({
-    state: row["State"],
-    abbrev: row["Abbrev"],
-    code: row["Code"],
-  })
-end
+# # import abbreviation data
+# CSV.foreach(Rails.root.join(abbreviations_filepath), headers: true) do |row|
+#   Abbreviation.create({
+#     state: row["State"],
+#     abbrev: row["Abbrev"],
+#     code: row["Code"],
+#   })
+# end

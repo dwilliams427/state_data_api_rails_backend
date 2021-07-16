@@ -1,5 +1,6 @@
 class Api::StatesController < ApplicationController
-  def import
-    Model.import(params[:file])
+  def index
+    @states = State.all
+    render "index.json.jb"
   end
 end
