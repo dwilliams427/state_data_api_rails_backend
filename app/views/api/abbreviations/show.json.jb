@@ -1,0 +1,1 @@
+render partial: "abbreviation.json.jb", locals: { abbreviation: @abbreviation }

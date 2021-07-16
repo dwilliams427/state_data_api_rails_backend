@@ -1,0 +1,6 @@
+{
+  id: abbreviation.id,
+  state: abbreviation.state,
+  abbrev: abbreviation.abbrev,
+  code: abbreviation.code,
+}

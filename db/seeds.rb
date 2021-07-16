@@ -30,3 +30,13 @@
 #     code: row["Code"],
 #   })
 # end
+
+#populate state_abbrevs table
+# st_id = 1
+# abbrev_id = 1
+# 51.times do
+#   state_abbrev = StateAbbreviation.create({state_id: st_id, abbreviation_id: abbrev_id})
+#   st_id += 1
+#   abbrev_id += 1
+# end
+

@@ -1,0 +1,3 @@
+@abbreviation.map do |abb|
+  render partial: "abbreviation.json.jb", locals: { abbreviation: abb }
+end
