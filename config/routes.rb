@@ -7,7 +7,7 @@ Rails.application.routes.draw do
     get "/states", controller: "states", action: "index"
     get "/states/:id", controller: "states", action: "show"
     
-    get "/abbrevs", controller: "abbreviations", action: "index"
-    get "/abbrevs/:id", controller: "abbreviations", action: "show"
+    # get "/abbrevs", controller: "abbreviations", action: "index"
+    # get "/abbrevs/:id", controller: "abbreviations", action: "show"
   end
 end

@@ -31,7 +31,7 @@
 #   })
 # end
 
-# #populate state_abbrevs table
+# #populate abbreviations column in state table
 # st_id = 1
 # abbrev_id = 1
 # 51.times do
